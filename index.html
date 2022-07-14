@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDF Words</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="head">
+
+            <h1>XYZ to FDF format</h1>
+    </div>
+    
+    <div class="instructivo">
+        <h2>How to use?</h2>
+        <p>1. Paste the two dimesional array (XYZ) in the first box</p>
+        <p>2. Paste the atomic species label in the second box</p>
+        <p>3. Click on the convert buttom</p>
+    </div>
+    
+    <div class="caja_1">
+        <div class="caja_1_1">
+            <p1>XYZ format</p1>
+            <textarea name="input_1" id="input1" cols="41" rows="5" value="1">Si      0.000000    0.000000    0.000000</textarea>
+            <p1>Chemical Species Label</p1>
+            <textarea name="input_2" id="input2" cols="30" rows="10">1   14   Si</textarea>
+        </div>
+        <div class="caja_1_2">
+            <input type="button" id="boton1" value="Convert!">
+        </div>
+        <div class="caja_1_3">
+            <textarea name="conversion_block" id="input3" cols="42" rows="10">FDF Format</textarea>
+        </div>
+    </div>
+   
+    <footer>
+        
+        <div class="footer_1">
+            <div class="footer_1_1">
+                <p>Desarrollado por A. Aley. C. Colen</p>
+                <p>2022</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>

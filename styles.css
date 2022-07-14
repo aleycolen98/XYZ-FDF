@@ -1,0 +1,136 @@
+*{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+
+   resize: none;
+}
+
+h1{
+
+   color: white;
+   margin-top: 0%;
+}
+
+h2{
+   font-style: italic;
+}
+
+
+.head{
+
+   margin-top: 0px;
+   background-color: blue;
+   width: 100%;
+   height: 75px;
+   text-align: center;
+   margin-left: 0%;
+   margin-right: 0%;
+   padding-top: 0%;
+
+}
+
+
+.instructivo{
+
+   margin-top: 0px;
+   background-color: white;
+   align-items: center;
+   text-align: center;
+   margin-left: 25%;
+   margin-right: 25%;
+   
+}
+
+.instructivo p{
+   color: gray;
+   font-style: oblique;
+}
+
+.caja_1{
+
+   height: 350px;
+   background-color: rgb(156, 245, 251);
+
+}
+
+.caja_1_1{
+   position: absolute;
+   height:350px;
+   width: 33.33%;
+}
+
+.caja_1_1 #input1, #input2, p1{
+
+   margin-top: 10px;
+   margin-left: 50px;
+   color: black
+
+}
+
+.caja_1_2{
+   position: absolute;
+   margin-left: 33.33%;
+   height: 350px;
+   width: 33.33%;
+   
+}
+
+
+#boton1{
+   background-color: white;
+   border-color: black;
+   color: black;
+   height: 50px;
+   width: 100px;
+   margin-left: 40%;
+   margin-top: 25%;
+   border-radius: 10%;
+   
+}
+
+.caja_1_3{
+   position: absolute;
+   margin-left: 66.66%;
+   height: 350px;
+   width: 33.33%;
+}
+
+
+#input1, #input2, #input3{
+
+   color: grey;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+#input3{
+   margin-top: 17%;
+   margin-left: 5%;
+   color: black;
+}
+
+footer{
+
+   background-color: blue;
+   height: 100px;
+   text-align: center;
+   width: 100%;
+
+}
+
+footer p{
+
+   margin-top: 5px;
+   color: white;
+   font-weight: 300;
+   border-right: none;
+}
+
+
+#boton1:hover{
+
+   background-color: gray;
+
+}
