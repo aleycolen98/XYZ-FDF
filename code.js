@@ -24,8 +24,8 @@ function convertir(){
 
     for(var i = 0; i<chemical_elements; i++){
 
-        array_chemical1 = array_chemical[i].replace(/\s+/g, '-');
-        array_chemical2 = array_chemical1.split('-');
+        array_chemical1 = array_chemical[i].replace(/\s+/g, '&');
+        array_chemical2 = array_chemical1.split('&');
         console.log(array_chemical2);
         chec_elemt.set(array_chemical2[1],array_chemical2[0]);
         
@@ -36,8 +36,8 @@ function convertir(){
 
     for(var j = 0; j<elements; j++){
         
-        temporal2 = array[j].replace(/\s+/g, '-');
-        temporal3 = temporal2.split('-');
+        temporal2 = array[j].replace(/\s+/g, '&');
+        temporal3 = temporal2.split('&');
         temporal3[4] = j+1;
         console.log(temporal3);
 
