@@ -76,4 +76,14 @@ function convertir(){
 
 }
 
+function borrar_datos(){
+
+    document.getElementById("input1").value = "";
+    document.getElementById("input2").value = "";
+    document.getElementById("input3").value = "";
+
+}
+
+
 document.getElementById("boton1").onclick = convertir;
+document.getElementById("boton2").onclick = borrar_datos;
